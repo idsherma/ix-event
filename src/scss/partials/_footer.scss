@@ -1,0 +1,9 @@
+.footer-link {
+	color: $grey;
+	font-size: 13px;
+	transition: all .3s;
+	&:hover {
+		color: $l-blue;
+		text-decoration: none;
+	}
+}

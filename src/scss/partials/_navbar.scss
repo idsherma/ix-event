@@ -1,0 +1,48 @@
+.nav-menu {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    transition: all .7s;
+}
+
+.menu-item {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: $grey;
+    transition: color .5s;
+
+    &:hover {
+        color: $l-blue;
+    }
+}
+
+.nav-active {
+    color: $l-blue;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+}
+
+.change {
+    .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .line2 {
+        opacity: 0;
+    }
+
+    .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+
+.custom-navbar {
+    padding: 5px 30px;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7));
+}

@@ -1,0 +1,65 @@
+// imports
+@import 'partials/fonts',
+'partials/colors',
+'partials/form',
+'partials/navbar',
+'partials/hero',
+'partials/mission',
+'partials/footer',
+'../../node_modules/bootstrap/scss/bootstrap';
+
+// Styles
+body {
+  font-family: $montserrat;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $ibm-flex;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* services */
+.heading {
+	position: absolute;
+	top: 70%;
+	right: 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: $off-black;
+	width: 70%;
+	cursor: pointer;
+	opacity: .7;
+	transition: all .5s;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+
+/* customers */
+.customers {
+  background:$navy;
+}
+
+/* contact button */
+.submit-button {
+  background: $red-orange;
+  color: $grey;
+  transition: all .3s;
+
+  &:hover {
+    background: $l-red-orange;
+    transform: translateY(-3px);
+  }
+}
